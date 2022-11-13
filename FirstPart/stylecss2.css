@@ -1,0 +1,10 @@
+body {
+    /*background-color: rgb(192, 192, 192);*/
+    background: url("wikilogo.png") no-repeat fixed center;
+}
+
+p {
+    color: rgb(3, 64, 229);
+    opacity: 0.4;
+
+}

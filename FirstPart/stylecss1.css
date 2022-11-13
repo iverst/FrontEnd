@@ -1,0 +1,19 @@
+p {
+    font-size: 1em;
+    font-family: "Arial Black", sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+} 
+
+.flottant {
+    float: left;
+}
+
+#special {
+    clear: both;
+
+}

@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    border: double black 2px;
+    background-color: ghostwhite;
+    margin: 0px;
+}
+
+p{
+    border: double black 2px;
+    padding: 2px;
+    text-align: justify;
+    height: 100%;
+    width: 80%;
+    background-color: ghostwhite;
+    margin: auto;
+}

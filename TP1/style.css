@@ -161,3 +161,120 @@ nav a:hover{
 #bouton_rouge:hover{
     opacity: 0.8;
 }
+
+/* Corps page web*/
+
+#corps{
+    padding: 0;
+    display: flex;
+    
+}
+
+#corps_article{
+    width: 70%;
+}
+
+#corps_bulle{
+    width: 29%;
+}
+
+article h1 {
+    display: flex;
+    font-size: 1.4em;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+article
+{
+    position: relative;
+    margin-right: 20px;
+    flex: 3;
+    text-align: justify;
+}
+
+#categorie_voyage{
+    position: relative;
+    top: -2px;
+    left: 3px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+article p {
+    margin-top: 6px;
+    font-size: 0.9em;
+}
+
+#corps aside{
+    margin-top: 60px;
+    position: relative;
+    background-color: #706b64;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    color: white;
+    font-size: 0.9em;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px black;
+}
+#corps aside h1{
+    font-size: 1.3em;
+}
+
+#corps aside #zozor {    
+    text-align: center;
+}
+
+#image_fleche_bulle{
+    position: absolute;
+    top: 49%;
+    left: -12px;
+}
+
+#socials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: justify;
+}
+
+#socials img:hover{
+    opacity: 0.8;
+}
+
+footer{
+    display: flex;
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;    justify-content: space-between;
+    padding-top: 20px;
+}
+footer h1 {
+    font-size: 1.2em;
+}
+
+#mon-tweet{
+    font-size: 0.9em;
+}
+
+#mes-photos img{
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+#mes-amis-liste{
+    display: flex;
+}
+#mes-amis-liste li{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+#mes-amis-liste a{
+    text-decoration: none;
+    color: #760001;
+}

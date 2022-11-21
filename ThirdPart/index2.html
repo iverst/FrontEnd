@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+    </head>
+    <body>
+        <form method="post" action="test1.js">
+            <p>
+                <label for="pseudo">Votre pseudo</label>
+                <input type="text" name="pseudo" id="pseudo" maxlength="4" placeholder="Votre pseudo">
+            </p>
+        </form>
+            <form method="post" action="test1.php">
+                <fieldset>
+                    <legend>Quelques informations nécessaires</legend>
+                <p>
+                    <label for="password">Votre pseudo</label>
+                    <input type="password" name="password" id="password" placeholder="Votre Mot de Passe" autofocus>
+                    <textarea rows="5" cols="100"></textarea>
+                    <input type="email">
+                    <input type="number" min="10" max="50" step="10">
+                    <input type="color">
+                    <input type="date">
+                    <input type="checkbox">
+                    <input type="radio" value="10" name="line" required>
+                    <input type="radio" value="2" name="line">
+
+                    <label for="pays"> Selectionner votre pays</label>
+                    <select name="pays" id="pays">
+                        <option value="france" selected>france</option>
+                        <option value="belgique">belgique</option>
+                        <option value="allemagne">allemagne</option>
+
+                    </select>
+                </p>
+                <input type="submit" value="envoyer">
+            </fieldset>
+            </form>
+
+    </body>
+</html>
